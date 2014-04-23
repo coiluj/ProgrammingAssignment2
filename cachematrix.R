@@ -1,7 +1,8 @@
 ## Put comments here that give an overall description of what your
 ## functions do
 
-## Folloing the same structure as the example:
+## Following the same structure as the example, replacing
+## the mean of the vector with the inverse of the matrix
 ## 1. set the value of a matrix
 ## 2. get the value of the matrix
 ## 3. set the value of the inverse of the matrix
@@ -24,7 +25,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## This function calculates the inverse of mtrix we input above
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
